@@ -24,7 +24,7 @@ y = melbourne_data.Price
 ## Features: Select columns using a list that will be used to predict the prediction target
 melbourne_features = ["Rooms", "Bathroom", "Landsize", "Lattitude", "Longtitude"]
 X = melbourne_data[melbourne_features]
-# print(X.describe())
+
 ## Use the head() method to grab just the first 5 rows to check the dataset
 # print(X.head())
 
